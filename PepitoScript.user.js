@@ -3,6 +3,7 @@
 // @version      0.1
 // @description  We see only servers, languages and quality that we can configure
 // @author       Borja Pintos
+//@downloadURL   https://github.com/BorjaPintos/pepitoScript/blob/master/PepitoScript.user.js
 // @include      *://*.seriespepito.com/*
 // @include      *://*.peliculaspepito.com/*
 // ==/UserScript==
