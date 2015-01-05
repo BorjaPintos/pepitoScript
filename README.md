@@ -1,7 +1,7 @@
 pepitoScript
 ============
 
-#Script that we uses in seriespepito.com and peliculaspepito.com
+#Script that we uses in seriespepito.to
 
 ####Author : Borja Pintos
 
