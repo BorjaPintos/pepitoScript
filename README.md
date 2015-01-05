@@ -57,36 +57,33 @@ This is the default function
 
     function getSeriesAllowLanguagesSeeOnline(){
         
-        //class of tr
-        //idioma_0 -> Español
-        //idioma_1 -> Latino
-        //idioma_2 -> Inglés
-        //idioma_3 -> Inglés subtitulado en español
-        return ["idioma_0", "idioma_3"];
+        //es -> Español
+        //la -> Latino
+        //en -> Inglés
+        //sub -> Inglés subtitulado en español
+        return ["sub", "es"];
     }
 
-If you want only Spanish languages. you need deleted idioma_3 like this (don't forget deleted the coma) :
+If you want only Spanish languages. you need deleted sub like this (don't forget deleted the coma) :
 
     function getSeriesAllowLanguagesSeeOnline(){
         
-        //class of tr
-        //idioma_0 -> Español
-        //idioma_1 -> Latino
-        //idioma_2 -> Inglés
-        //idioma_3 -> Inglés subtitulado en español
-        return ["idioma_0"];
+        //es -> Español
+        //la -> Latino
+        //en -> Inglés
+        //sub -> Inglés subtitulado en español
+        return ["es"];
     }
    
 And for example, if you want all Spanish,VO and VOSE, you need add params like this (don't forget add the coma and quotes)
 
     function getSeriesAllowLanguagesSeeOnline(){
         
-        //class of tr
-        //idioma_0 -> Español
-        //idioma_1 -> Latino
-        //idioma_2 -> Inglés
-        //idioma_3 -> Inglés subtitulado en español
-        return ["idioma_0", "idioma_2", "idioma_3"];
+        //es -> Español
+        //la -> Latino
+        //en -> Inglés
+        //sub -> Inglés subtitulado en español
+        return ["es", "en", "sub"];
     }
 
 And the same for the others function.
